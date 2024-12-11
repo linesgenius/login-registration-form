@@ -42,19 +42,9 @@ project-folder/
 3. Customize the design or integrate it with your back-end logic for functionality.
 
 ## Preview
-<div style="width: 100%; position: relative;">
   <img src="screenshots/login.PNG" alt="Image 1" style="width: 100%; display: block;">
   <img src="screenshots/reg.PNG" alt="Image 2" style="width: 100%; display: none;">
-  <script>
-    let currentIndex = 0;
-    const images = document.querySelectorAll('div img');
-    setInterval(() => {
-      images[currentIndex].style.display = 'none';
-      currentIndex = (currentIndex + 1) % images.length;
-      images[currentIndex].style.display = 'block';
-    }, 3000);
-  </script>
-</div>
+
 
 ## Future Enhancements
 
