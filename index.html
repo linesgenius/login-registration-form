@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Registration</title>
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-wrapper">
+        <!-- Login Form -->
+        <form id="login-form" class="form active">
+          <h2 class="form-title">Login</h2>
+          <div class="form-group">
+            <input
+              type="email"
+              id="login-email"
+              class="form-control"
+              placeholder=" "
+              required
+            />
+            <label for="login-email">Email</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              id="login-password"
+              class="form-control"
+              placeholder=" "
+              required
+            />
+            <label for="login-password">Password</label>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <p class="toggle-text">
+            Don't have an account? <a href="#" id="to-register">Register</a>
+          </p>
+        </form>
+
+        <!-- Registration Form -->
+        <form id="register-form" class="form">
+          <h2 class="form-title">Register</h2>
+          <div class="form-group">
+            <input
+              type="text"
+              id="register-username"
+              class="form-control"
+              placeholder=" "
+              required
+            />
+            <label for="register-username">Username</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="register-email"
+              class="form-control"
+              placeholder=" "
+              required
+            />
+            <label for="register-email">Email</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              id="register-password"
+              class="form-control"
+              placeholder=" "
+              required
+            />
+            <label for="register-password">Password</label>
+          </div>
+          <button type="submit" class="btn">Register</button>
+          <p class="toggle-text">
+            Already have an account? <a href="#" id="to-login">Login</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
