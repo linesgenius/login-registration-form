@@ -25,9 +25,9 @@ This project is a beautifully designed login and registration form built using *
 
 \`\`\`
 project-folder/
-├── index.html       # Main HTML file
-├── styles.css       # Stylesheet for design and animations
-├── script.js        # JavaScript for form functionality
+├── index.html # Main HTML file
+├── styles.css # Stylesheet for design and animations
+├── script.js # JavaScript for form functionality
 \`\`\`
 
 ## Usage
@@ -43,7 +43,7 @@ project-folder/
 
 ## Preview
 
-![Login and Registration Form Screenshot](https://via.placeholder.com/800x400?text=Add+Your+Preview+Image+Here)
+![Login and Registration Form Screenshot](https://via.placeholder.com/800x400?text=screenshots\login.PNG)
 
 ## Future Enhancements
 
