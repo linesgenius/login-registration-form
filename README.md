@@ -43,7 +43,7 @@ project-folder/
 
 ## Preview
 
-![Login and Registration Form Screenshot](<img src='screenshots\login.PNG'>)
+![Login and Registration Form Screenshot](screenshots/login.png)
 
 ## Future Enhancements
 
