@@ -43,7 +43,7 @@ project-folder/
 
 ## Preview
 
-![Login and Registration Form Screenshot](https://via.placeholder.com/800x400?text=screenshots\login.PNG)
+![Login and Registration Form Screenshot](<img src='screenshots\login.PNG'>)
 
 ## Future Enhancements
 
